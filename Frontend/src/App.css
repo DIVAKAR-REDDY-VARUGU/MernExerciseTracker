@@ -1,0 +1,222 @@
+body{
+  background-color:rgba(247, 237, 226, 0.359);
+}
+.logo-bar{
+  background-color:black;
+  border-radius:0 0 10px 10px;
+  box-sizing: border-box;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.542);
+  height: 60px;
+  margin:0 auto;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 45px;
+  color: white;
+}
+
+.options-bar{
+  cursor: pointer;
+  display: flex;
+  justify-content:flex-end;
+}
+.addUser{
+  margin: 20px 60px 0 0;
+  font-size: 15px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.603)
+}
+.data-display{
+  /* border: 1px solid black; */
+  padding:0 20px;
+  margin-top: 20px;
+}
+.LoggedExercises{
+  font-size: 24px;
+  font-weight: bold;
+}
+.table{
+  /* border: 1px solid red; */
+  margin-top: 20px;
+  width:100%;
+  border-collapse: collapse;
+}
+.table-header{
+  height: 60px;
+}
+.table-data{
+  padding-top: 20px;
+  height: 50px;
+  border-top: 1px solid rgba(0, 0, 0, 0.362);
+}
+thead{
+  background-color:rgb(139, 219, 237);
+  /* border: 1px solid black;6 */
+}
+td{
+  text-align: center;
+}
+
+.blueColor{
+  color:rgb(73, 163, 242)
+}
+.pointer{
+  cursor: pointer;
+}
+.black-screen{
+  width:100%;
+  height:100%;
+  position:fixed;
+  top:0;
+  z-index:100;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.popup{
+  position:fixed;
+  z-index:900;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  border-radius: 15px;
+  background-color: aliceblue;
+}
+.mini-container{
+  width:50vw;
+  height:50vh;
+}
+.large-container{
+  width:50vw;
+  height:70vh;
+}
+.user-popup{
+  padding: 20px;
+  text-align: center;
+}
+.container-title{
+  margin:20px 0 50px 0;
+  font-size:24px;
+  font-weight:700;
+}
+input{
+  height: 25px;
+  padding: 5px 20px;
+  background-color:rgb(215, 222, 222);
+  /* margin-right: 10px; */
+  border-radius: 8px;
+  border:none;
+  outline: none;
+}
+button{
+  border: none;
+  margin-top: 50px;
+  padding: 5px 10px;
+  border-radius: 3px;
+  background-color:aqua;
+}
+button:hover{
+  background-color:aquamarine;
+  font-weight:bold;
+}
+.addLogger--btn--wrapper{
+  /* border: 1px solid black; */
+  margin: 50px 0;
+}
+.addLogger--btn{
+  /* display: inline-block; */
+  width:40px;
+  height:40px;
+  padding: 10px;
+  border-radius: 50%;
+  /* padding: 8px 10px 22px 14px; */
+  margin: 0 auto;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 2px rgba(0, 0, 0,.3);
+  font-size: 32px;
+  font-weight:900;
+}
+.addLogger--btn:hover{
+  box-shadow: 0 0 4px rgba(0, 0, 0,.7);
+  border: 1px solid transparent;
+  background-color:rgb(182, 231, 133);
+}
+.verticalLine,.horizantalLine{
+  display: block;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: .5px solid rgba(0, 0, 0, 0.6);
+}
+.verticalLine{
+  transform: translatey(440%) skewx(40deg);
+  width: 35px;
+  height: 3px;
+}
+.horizantalLine{
+  transform: translatex(380%) skewy(-40deg);
+  width: 3px;
+  height: 35px;
+  /* display: block;
+  border: 1px solid black; */
+
+}
+.dropDown--wrapper{
+  border: none;
+  padding: 7px 15px;
+  border-radius: 3px;;
+  outline:none;
+  background-color:rgb(215, 222, 222);
+}
+
+::-webkit-scrollbar{
+  width:0;
+}
+
+
+
+/* #root:-webkit-full-screen {
+  width: 100%;
+  height: 100%;
+} */
+
+/* body > #root > div {
+  height: 100vh;
+} */
+/* html, body, #app, #app>div {
+  height: 100%
+} */
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
