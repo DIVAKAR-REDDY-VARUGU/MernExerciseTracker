@@ -22,6 +22,7 @@ function App() {
     try {
       const data = await axios.get("http://localhost:5000/users/");
       setUsers((pre) => data.data);
+      console.log(data.data);
     } catch (error) {
       console.log("error in fetching users data... ");
     }
@@ -32,6 +33,7 @@ function App() {
   }, []);
 
   const handleClick = (e, type) => {
+    
     e.preventDefault();
     if (type === "addUserForm") {
       let a = e.target[0].value;
@@ -57,7 +59,7 @@ function App() {
         reset();
         return;
       }
-      if (edit != true) {
+      if (edit !== true) {
         axios
           .post("http://localhost:5000/exercises/add", {
             username: a,
@@ -196,7 +198,7 @@ function App() {
                 <input
                   type="text"
                   placeholder={
-                    users.length === 1 ? users[0].duration : "Duration"
+                    users.length === 1 ? users[0].duration : "Duration in Minutes"
                   }
                 />
                 <br />
@@ -226,8 +228,8 @@ function App() {
                 return (
                   <tr className="table-data" key={item._id}>
                     <td>{item.username}</td>
-                    <td>{item.description}</td>
-                    <td>{item.duration}</td>
+                    <td>{item.description} </td>
+                    <td>{item.duration} min </td>
                     <td>{item.date.toString().substring(0, 10)}</td>
                     <td>
                       <span

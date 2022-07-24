@@ -3,6 +3,7 @@ const User=require(`../models/user.model`);
 router.get('/', (req,res)=>{
     User.find()
     .then((data)=>{
+        console.log(data);
         res.json(data);
     })
     .catch((err)=>{
