@@ -1,8 +1,8 @@
 # MernExerciseTracker
-track the usese exercises 
+track the uses exercises 
 This Web-App is similar to Todo List 
-My main idea is to connect Frontend and Backend (React js , Express js)
-For storage i used Mongo db atlas
+My main idea is to connect the Frontend and Backend (React js , Express js)
+For storage I used Mongo DB atlas
 
 
 You can add Users by clicking Add users 
