@@ -17,4 +17,3 @@ Add new Work
 ![2022-07-24 (3)](https://user-images.githubusercontent.com/88612726/180655248-2199ea09-4125-4da5-97f4-18ef548c1db3.png)
 ![2022-07-24 (7)](https://user-images.githubusercontent.com/88612726/180655257-19f2470b-c9ee-408e-b831-e5ea683ccc59.png)
 
-Edit the content :
